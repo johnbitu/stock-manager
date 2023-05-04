@@ -1,24 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estoque</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Stock Manager 🌎</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 </head>
 
 <body>
-    <div class="div">
-        <h3>Cadastro de Produtos</h3>
-        <div class="">
-            <label for="">Nome:</label>
-            <input id="name" type="text">
-            <button class="btn">Salvar</button>
-            <button class="del">Deletar</button>
-        </div>
-        <div class="resultado"></div>
-    </div>
+    <main class="main">
+        <section class="section-cadastro">
+            <h1>Cadastros de produtos</h1>
+            <div id="wrap">
+                <input id="name" type="text" placeholder="Nome:">
+                <input type="number" placeholder="Quantidade">
+                <input type="text" placeholder="Preço">
+                <input type="text" placeholder="Descrição">
+            </div>
+            <div id="botoes">
+                <button class="btn-cadastrar">Cadastrar</button>
+                <button class="btn-excluir">Excluir</button>
+                <button class="btn-editar">Editar</button>
+            </div>
+        </section>
+
+        <section class="section-painel">
+            <div id="saida">
+                <!-- <div class="div-produto">
+
+                    <div class="div-produto-quantidade">
+                        <h3 class="nome-produto">Produto</h3>
+                        <span class="quantidade-produto">Quantidade</span>
+                    </div>
+
+                    <span class="preco-produto">R$ 50</span>
+                    <p class="descricao-produto">Descrição Produto</p>
+
+                </div> -->
+            </div>
+        </section>
+    </main>
     <script src="main.js"></script>
 </body>
 
