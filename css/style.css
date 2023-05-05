@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: aliceblue;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-login{
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 35px;
+    background: #3D403A;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.section-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wrap input {
+    /* border-radius: 5px;
+    width: 30%;
+    height: 30px;
+     */
+    margin-right: 8px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    padding: 1em;
+    background-color: #ccc;
+    box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+    transition: 300ms ease-in-out;
+}
+
+#wrap input:focus {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+#wrap {
+    text-align: center;
+    border-radius: 40px 5px;
+    box-shadow: 0px 10px 40px #00000056;
+    padding: 50px;
+    background-color: #4C4E4A;
+}
+
+/* botões */
+
+/* button {
+    margin-top: 15px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(0, 95, 139);
+    color: white;
+    border-radius: 5px;
+    border:1px solid rgb(207, 207, 207);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: darkturquoise;
+    color: black;
+} */
+
+/* Painel dos produtos */
+
+.section-painel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#saida input {
+    height: 20px;
+    width: 20px;
+}
+
+#botoes,
+#saida,
+#wrap {
+    display: flex;
+}
+
+/* produtos */
+

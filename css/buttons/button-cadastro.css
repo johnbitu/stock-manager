@@ -1,0 +1,48 @@
+.btn-cadastrar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 150px;
+    height: 55px;
+    border: none;
+    padding: 0px 10px;
+    background: #e8e8e8;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition-duration: .3s;
+    font-size: 15px;
+}
+
+.svg-cadastrar {
+    width: 30px;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    fill: white;
+    transition-duration: .3s;
+}
+
+.btn-cadastrar:hover {
+    color: transparent;
+    border: 1px solid white;
+}
+
+.btn-cadastrar:hover svg {
+    right: 43%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition-duration: .3s;
+}
+
+.btn-cadastrar:active {
+    transform: translate(3px, 3px);
+    transition-duration: .3s;
+    box-shadow: 2px 2px 0px rgb(140, 32, 212);
+    box-shadow: 4px 4px 12px #c5c5c5,
+    -4px -4px 12px #ffffff;
+}

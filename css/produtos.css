@@ -1,0 +1,57 @@
+.div-produto {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8e8e8;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px 0;
+    width: 40vw;
+}
+
+.div-produto-quantidade {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 35px;
+}
+
+.nome-produto {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.quantidade-produto {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.preco-produto {
+    font-size: 15px;
+}
+
+
+.botao-apagar {
+    background-color: crimson;
+    width: 70px;
+    height: 40px;
+    padding: 5px;
+}
+
+.botao-editar {
+    background-color: rgb(170, 173, 15);
+    width: 70px;
+    height: 40px;
+    padding: 5px;
+}
+
+.botoes-alteracoes {
+    display: flex;
+    align-items: center;
+    width: 9vw;
+    justify-content: space-around;
+}
+
+.div-dados {
+    display: flex;
+    flex-direction: column;
+}
