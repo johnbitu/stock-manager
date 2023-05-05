@@ -1,10 +1,7 @@
 .div-produto {
     display: flex;
     justify-content: space-between;
-    background-color: #e8e8e8;
     padding: 10px 15px;
-    border-radius: 5px;
-    margin: 5px 0;
     width: 40vw;
 }
 
